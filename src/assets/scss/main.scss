@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/*Variables*/
+$banner-back-color: #ecf0f6;
+$item-border-radius: 16px;
+$item-border-color: #0F62FE;
+$item-border: inset 1px solid $item-border-color;
+$footer-fill: #F0F6FE;
+$tag-fill: #F0F6FE;
+$border-full-circle: 9999px;
+$date-font-color: #A1A7B5;
+$title-font-color: #0C5BEF;
+$text-body-font-color: #222327;
+$tag-font-color: #00133A;
+$button-more-color: #002DBF;
+$semibold: 600;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/*Adaptive Container Class*/
+.container {
+  max-width: 100%;
+
+  /*Mobile devices*/
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  /*Tablets*/
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  /*Small laptops and tablets*/
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  /*PC, Laptop*/
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  /*Desktop*/
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+
+  @media (min-width: 1920px) {
+    max-width: 1720px;
+  }
+}
